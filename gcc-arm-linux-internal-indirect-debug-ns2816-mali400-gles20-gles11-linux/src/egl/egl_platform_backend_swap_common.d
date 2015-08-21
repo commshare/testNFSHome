@@ -1,0 +1,2 @@
+build/gcc-arm-linux-internal-indirect-debug-ns2816-mali400-gles20-gles11-linux/src/egl/egl_platform_backend_swap_common.d build/gcc-arm-linux-internal-indirect-debug-ns2816-mali400-gles20-gles11-linux/src/egl/egl_platform_backend_swap_common.small.o build/gcc-arm-linux-internal-indirect-debug-ns2816-mali400-gles20-gles11-linux/src/egl/egl_platform_backend_swap_common.fast.o : \
+ src/egl/egl_platform_backend_swap_common.c 

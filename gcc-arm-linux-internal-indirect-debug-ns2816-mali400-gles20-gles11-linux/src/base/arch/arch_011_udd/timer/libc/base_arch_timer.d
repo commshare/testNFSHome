@@ -1,0 +1,2 @@
+build/gcc-arm-linux-internal-indirect-debug-ns2816-mali400-gles20-gles11-linux/src/base/arch/arch_011_udd/timer/libc/base_arch_timer.d build/gcc-arm-linux-internal-indirect-debug-ns2816-mali400-gles20-gles11-linux/src/base/arch/arch_011_udd/timer/libc/base_arch_timer.small.o build/gcc-arm-linux-internal-indirect-debug-ns2816-mali400-gles20-gles11-linux/src/base/arch/arch_011_udd/timer/libc/base_arch_timer.fast.o : \
+ src/base/arch/arch_011_udd/timer/libc/base_arch_timer.c 
