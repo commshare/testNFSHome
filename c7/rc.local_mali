@@ -1,0 +1,31 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+###add 20150803
+echo "[1]mount /dev/mmcblok0p1 to /storage ... "
+mount -t vfat /dev/mmcblk0p1 /storage
+
+echo "[2] disable task  kinteractiveup ..."
+echo 0 > /proc/sys/kernel/hung_task_timeout_secs
+
+echo "[3] set cpu frequency to performance"
+cpufreq-set -g  performance
+
+#echo "[4] mount remote NFS folder"
+#. /root/mountnfs.sh
+echo "install mali ump ko"
+./root/setmali.sh
+
+echo "...done...."
+
+exit 0
