@@ -1,0 +1,209 @@
+总用量 4
+drwxr-xr-x 12 root root        4160  1月  1 00:01 .
+drwx------ 24 1000    1000     4096  1月  1  1970 ..
+crw------T  1 root root     10,  58  1月  1 00:00 alarm
+crw------T  1 root root     10,  61  1月  1 00:00 android_adb
+crw------T  1 root root     10,  56  1月  1 00:00 ashmem
+crw------T  1 root root     10,  57  1月  1 00:00 binder
+drwxr-xr-x  2 root root         500  1月  1 00:00 block
+drwxr-xr-x  3 root root          60  1月  1 00:00 bus
+drwxr-xr-x  2 root root        3520  1月  1 00:01 char
+crw-------  1 root root      5,   1  1月  1 00:00 console
+crw------T  1 root root     10,  50  1月  1 00:00 cpu_dma_latency
+drwxr-xr-x  5 root root         100  1月  1 00:00 disk
+drwxr-xr-x  2 root root          80  1月  1 00:01 dri
+crw-rw---T  1 root video    29,   0  1月  1 00:00 fb0
+lrwxrwxrwx  1 root root          13  1月  1 00:00 fd -> /proc/self/fd
+crw-rw-rwT  1 root root      1,   7  1月  1 00:00 full
+crw------T  1 root root     10, 229  1月  1 00:00 fuse
+crw------T  1 root root    240,   0  1月  1 00:00 hdmi
+crw------T  1 root root     89,   0  1月  1 00:00 i2c-0
+crw------T  1 root root     89,   1  1月  1 00:00 i2c-1
+crw------T  1 root root     89,   2  1月  1 00:00 i2c-2
+crw------T  1 root root     89,   3  1月  1 00:00 i2c-3
+drwxr-xr-x  3 root root         100  1月  1 00:00 input
+crw-r----T  1 root kmem      1,   2  1月  1 00:00 kmem
+crw------T  1 root root      1,  11  1月  1 00:00 kmsg
+crw-rw---T  1 root video   250,   0  1月  1 00:00 lirc0
+srw-rw-rw-  1 root root           0  1月  1 00:00 log
+crw------T  1 root root     10,  54  1月  1 00:00 log_events
+crw------T  1 root root     10,  55  1月  1 00:00 log_main
+crw------T  1 root root     10,  53  1月  1 00:00 log_radio
+crw------T  1 root root     10,  52  1月  1 00:00 log_system
+brw-rw---T  1 root disk      7,   0  1月  1 00:00 loop0
+brw-rw---T  1 root disk      7,   1  1月  1 00:00 loop1
+brw-rw---T  1 root disk      7,   2  1月  1 00:00 loop2
+brw-rw---T  1 root disk      7,   3  1月  1 00:00 loop3
+brw-rw---T  1 root disk      7,   4  1月  1 00:00 loop4
+brw-rw---T  1 root disk      7,   5  1月  1 00:00 loop5
+brw-rw---T  1 root disk      7,   6  1月  1 00:00 loop6
+brw-rw---T  1 root disk      7,   7  1月  1 00:00 loop7
+crw------T  1 root root     10, 237  1月  1 00:00 loop-control
+lrwxrwxrwx  1 root root           9  1月  1 00:00 MAKEDEV -> /bin/true
+drwxr-xr-x  2 root root          60  1月  1 00:00 mapper
+brw-rw---T  1 root disk      9,   0  1月  1 00:00 md0
+crw-r----T  1 root kmem      1,   1  1月  1 00:00 mem
+crw------T  1 root root     10,  48  1月  1 00:00 memory_throughput
+brw-rw---T  1 root floppy  179,   0  1月  1 00:00 mmcblk0
+brw-rw---T  1 root floppy  179,   1  1月  1 00:00 mmcblk0p1
+brw-rw---T  1 root floppy  179,   2  1月  1 00:00 mmcblk0p2
+brw-rw---T  1 root floppy  179,   8  1月  1 00:00 mmcblk1
+brw-rw---T  1 root floppy  179,  16  1月  1 00:00 mmcblk1boot0
+brw-rw---T  1 root floppy  179,  24  1月  1 00:00 mmcblk1boot1
+brw-rw---T  1 root floppy  179,   9  1月  1 00:00 mmcblk1p1
+brw-rw---T  1 root floppy  179,  10  1月  1 00:00 mmcblk1p2
+brw-rw---T  1 root floppy  179,  11  1月  1 00:00 mmcblk1p3
+brw-rw---T  1 root floppy  179,  12  1月  1 00:00 mmcblk1p4
+brw-rw---T  1 root floppy  179,  13  1月  1 00:00 mmcblk1p5
+brw-rw---T  1 root floppy  179,  14  1月  1 00:00 mmcblk1p6
+brw-rw---T  1 root floppy  179,  15  1月  1 00:00 mmcblk1p7
+brw-rw---T  1 root floppy  259,   0  1月  1 00:00 mmcblk1p8
+crw------T  1 root root     10,  60  1月  1 00:00 mtp_usb
+drwxr-xr-x  2 root root          60  1月  1 00:00 net
+crw------T  1 root root     10,  49  1月  1 00:00 network_latency
+crw------T  1 root root     10,  47  1月  1 00:00 network_throughput
+crw-rw-rwT  1 root root      1,   3  1月  1 00:00 null
+crw------T  1 root root    253,   0  1月  1 00:00 nusmart-dbg
+crw-------  1 root root    108,   0  1月  1 00:00 ppp
+crw------T  1 root root     10,   1  1月  1 00:00 psaux
+crw-rw-rwT  1 root root      5,   2  1月  1 00:00 ptmx
+drwxr-xr-x  2 root root           0  1月  1 00:00 pts
+crw-rw-rwT  1 root tty       2,   0  1月  1 00:00 ptyp0
+crw-rw-rwT  1 root tty       2,   1  1月  1 00:00 ptyp1
+crw-rw-rwT  1 root tty       2,   2  1月  1 00:00 ptyp2
+crw-rw-rwT  1 root tty       2,   3  1月  1 00:00 ptyp3
+crw-rw-rwT  1 root tty       2,   4  1月  1 00:00 ptyp4
+crw-rw-rwT  1 root tty       2,   5  1月  1 00:00 ptyp5
+crw-rw-rwT  1 root tty       2,   6  1月  1 00:00 ptyp6
+crw-rw-rwT  1 root tty       2,   7  1月  1 00:00 ptyp7
+crw-rw-rwT  1 root tty       2,   8  1月  1 00:00 ptyp8
+crw-rw-rwT  1 root tty       2,   9  1月  1 00:00 ptyp9
+crw-rw-rwT  1 root tty       2,  10  1月  1 00:00 ptypa
+crw-rw-rwT  1 root tty       2,  11  1月  1 00:00 ptypb
+crw-rw-rwT  1 root tty       2,  12  1月  1 00:00 ptypc
+crw-rw-rwT  1 root tty       2,  13  1月  1 00:00 ptypd
+crw-rw-rwT  1 root tty       2,  14  1月  1 00:00 ptype
+crw-rw-rwT  1 root tty       2,  15  1月  1 00:00 ptypf
+crw-rw-rwT  1 root root      1,   8  1月  1 00:00 random
+crw-r--r-T  1 root root     10,  63  1月  1 00:00 rfkill
+lrwxrwxrwx  1 root root           9  1月  1 00:00 root -> mmcblk0p2
+lrwxrwxrwx  1 root root           8  1月  1 00:00 shm -> /run/shm
+drwxr-xr-x  3 root root         140  1月  1 00:00 snd
+lrwxrwxrwx  1 root root          15  1月  1 00:00 stderr -> /proc/self/fd/2
+lrwxrwxrwx  1 root root          15  1月  1 00:00 stdin -> /proc/self/fd/0
+lrwxrwxrwx  1 root root          15  1月  1 00:00 stdout -> /proc/self/fd/1
+crw------T  1 root root     10,  62  1月  1 00:00 sw_sync
+crw-rw-rwT  1 root root      5,   0  1月  1 00:00 tty
+crw------T  1 root root      4,   0  1月  1 00:00 tty0
+crw-rw----  1 root tty       4,   1  1月  1 00:00 tty1
+crw------T  1 root root      4,  10  1月  1 00:00 tty10
+crw------T  1 root root      4,  11  1月  1 00:00 tty11
+crw------T  1 root root      4,  12  1月  1 00:00 tty12
+crw------T  1 root root      4,  13  1月  1 00:00 tty13
+crw------T  1 root root      4,  14  1月  1 00:00 tty14
+crw------T  1 root root      4,  15  1月  1 00:00 tty15
+crw------T  1 root root      4,  16  1月  1 00:00 tty16
+crw------T  1 root root      4,  17  1月  1 00:00 tty17
+crw------T  1 root root      4,  18  1月  1 00:00 tty18
+crw------T  1 root root      4,  19  1月  1 00:00 tty19
+crw-rw----  1 root tty       4,   2  1月  1 00:00 tty2
+crw------T  1 root root      4,  20  1月  1 00:00 tty20
+crw------T  1 root root      4,  21  1月  1 00:00 tty21
+crw------T  1 root root      4,  22  1月  1 00:00 tty22
+crw------T  1 root root      4,  23  1月  1 00:00 tty23
+crw------T  1 root root      4,  24  1月  1 00:00 tty24
+crw------T  1 root root      4,  25  1月  1 00:00 tty25
+crw------T  1 root root      4,  26  1月  1 00:00 tty26
+crw------T  1 root root      4,  27  1月  1 00:00 tty27
+crw------T  1 root root      4,  28  1月  1 00:00 tty28
+crw------T  1 root root      4,  29  1月  1 00:00 tty29
+crw-rw----  1 root tty       4,   3  1月  1 00:00 tty3
+crw------T  1 root root      4,  30  1月  1 00:00 tty30
+crw------T  1 root root      4,  31  1月  1 00:00 tty31
+crw------T  1 root root      4,  32  1月  1 00:00 tty32
+crw------T  1 root root      4,  33  1月  1 00:00 tty33
+crw------T  1 root root      4,  34  1月  1 00:00 tty34
+crw------T  1 root root      4,  35  1月  1 00:00 tty35
+crw------T  1 root root      4,  36  1月  1 00:00 tty36
+crw------T  1 root root      4,  37  1月  1 00:00 tty37
+crw------T  1 root root      4,  38  1月  1 00:00 tty38
+crw------T  1 root root      4,  39  1月  1 00:00 tty39
+crw-rw----  1 root tty       4,   4  1月  1 00:00 tty4
+crw------T  1 root root      4,  40  1月  1 00:00 tty40
+crw------T  1 root root      4,  41  1月  1 00:00 tty41
+crw------T  1 root root      4,  42  1月  1 00:00 tty42
+crw------T  1 root root      4,  43  1月  1 00:00 tty43
+crw------T  1 root root      4,  44  1月  1 00:00 tty44
+crw------T  1 root root      4,  45  1月  1 00:00 tty45
+crw------T  1 root root      4,  46  1月  1 00:00 tty46
+crw------T  1 root root      4,  47  1月  1 00:00 tty47
+crw------T  1 root root      4,  48  1月  1 00:00 tty48
+crw------T  1 root root      4,  49  1月  1 00:00 tty49
+crw-rw----  1 root tty       4,   5  1月  1 00:00 tty5
+crw------T  1 root root      4,  50  1月  1 00:00 tty50
+crw------T  1 root root      4,  51  1月  1 00:00 tty51
+crw------T  1 root root      4,  52  1月  1 00:00 tty52
+crw------T  1 root root      4,  53  1月  1 00:00 tty53
+crw------T  1 root root      4,  54  1月  1 00:00 tty54
+crw------T  1 root root      4,  55  1月  1 00:00 tty55
+crw------T  1 root root      4,  56  1月  1 00:00 tty56
+crw------T  1 root root      4,  57  1月  1 00:00 tty57
+crw------T  1 root root      4,  58  1月  1 00:00 tty58
+crw------T  1 root root      4,  59  1月  1 00:00 tty59
+crw-rw----  1 root tty       4,   6  1月  1 00:00 tty6
+crw------T  1 root root      4,  60  1月  1 00:00 tty60
+crw------T  1 root root      4,  61  1月  1 00:00 tty61
+crw------T  1 root root      4,  62  1月  1 00:00 tty62
+crw------T  1 root root      4,  63  1月  1 00:00 tty63
+crw------T  1 root root      4,   7  1月  1 00:00 tty7
+crw------T  1 root root      4,   8  1月  1 00:00 tty8
+crw------T  1 root root      4,   9  1月  1 00:00 tty9
+crw-rw---T  1 root dialout 251,   0  1月  1 00:00 ttyGS0
+crw-rw---T  1 root dialout 251,   1  1月  1 00:00 ttyGS1
+crw-rw---T  1 root dialout 251,   2  1月  1 00:00 ttyGS2
+crw-rw---T  1 root dialout 251,   3  1月  1 00:00 ttyGS3
+crw-rw---T  1 root dialout   3,   0  1月  1 00:00 ttyp0
+crw-rw---T  1 root dialout   3,   1  1月  1 00:00 ttyp1
+crw-rw---T  1 root dialout   3,   2  1月  1 00:00 ttyp2
+crw-rw---T  1 root dialout   3,   3  1月  1 00:00 ttyp3
+crw-rw---T  1 root dialout   3,   4  1月  1 00:00 ttyp4
+crw-rw---T  1 root dialout   3,   5  1月  1 00:00 ttyp5
+crw-rw---T  1 root dialout   3,   6  1月  1 00:00 ttyp6
+crw-rw---T  1 root dialout   3,   7  1月  1 00:00 ttyp7
+crw-rw---T  1 root dialout   3,   8  1月  1 00:00 ttyp8
+crw-rw---T  1 root dialout   3,   9  1月  1 00:00 ttyp9
+crw-rw---T  1 root dialout   3,  10  1月  1 00:00 ttypa
+crw-rw---T  1 root dialout   3,  11  1月  1 00:00 ttypb
+crw-rw---T  1 root dialout   3,  12  1月  1 00:00 ttypc
+crw-rw---T  1 root dialout   3,  13  1月  1 00:00 ttypd
+crw-rw---T  1 root dialout   3,  14  1月  1 00:00 ttype
+crw-rw---T  1 root dialout   3,  15  1月  1 00:00 ttypf
+crw-------  1 root tty       4,  64  1月  1 00:01 ttyS0
+crw------T  1 root root     10, 223  1月  1 00:00 uinput
+crw-rw---T  1 root video   248,   0  1月  1 00:01 ump
+crw-rw-rwT  1 root root      1,   9  1月  1 00:00 urandom
+crw------T  1 root root     10,  59  1月  1 00:00 usb_accessory
+crw------T  1 root root    189,   0  1月  1 00:00 usbdev1.1
+crw------T  1 root root    189,   1  1月  1 00:00 usbdev1.2
+crw------T  1 root root    189,   2  1月  1 00:00 usbdev1.3
+crw------T  1 root root    189,   3  1月  1 00:00 usbdev1.4
+crw------T  1 root root    189, 128  1月  1 00:00 usbdev2.1
+crw------T  1 root root      7,   0  1月  1 00:00 vcs
+crw------T  1 root root      7,   1  1月  1 00:00 vcs1
+crw------T  1 root root      7,   2  1月  1 00:00 vcs2
+crw------T  1 root root      7,   3  1月  1 00:00 vcs3
+crw------T  1 root root      7,   4  1月  1 00:00 vcs4
+crw------T  1 root root      7,   5  1月  1 00:00 vcs5
+crw------T  1 root root      7,   6  1月  1 00:00 vcs6
+crw------T  1 root root      7,   7  1月  1 00:00 vcs7
+crw------T  1 root root      7, 128  1月  1 00:00 vcsa
+crw------T  1 root root      7, 129  1月  1 00:00 vcsa1
+crw------T  1 root root      7, 130  1月  1 00:00 vcsa2
+crw------T  1 root root      7, 131  1月  1 00:00 vcsa3
+crw------T  1 root root      7, 132  1月  1 00:00 vcsa4
+crw------T  1 root root      7, 133  1月  1 00:00 vcsa5
+crw------T  1 root root      7, 134  1月  1 00:00 vcsa6
+crw------T  1 root root      7, 135  1月  1 00:00 vcsa7
+prw-r-----  1 root adm            0  1月  1 00:01 xconsole
+crw------T  1 root root     10,  51  1月  1 00:00 xt_qtaguid
+crw-rw-rwT  1 root root      1,   5  1月  1 00:00 zero
