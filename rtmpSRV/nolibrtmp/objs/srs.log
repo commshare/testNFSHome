@@ -1,0 +1,40 @@
+[2015-09-11 16:50:41.840][trace][2985][0] srs checking config...
+[2015-09-11 16:50:41.860][trace][2985][0] retrieve local ipv4 ip=192.168.10.33, index=0
+[2015-09-11 16:50:41.860][warn][2985][0][2] stats network use index=0, ip=192.168.10.33
+[2015-09-11 16:50:41.860][warn][2985][0][2] stats disk list: sda sdb xvda xvdb 
+[2015-09-11 16:50:41.860][trace][2985][0] write log to file ./objs/srs.log
+[2015-09-11 16:50:41.860][trace][2985][0] you can: tailf ./objs/srs.log
+[2015-09-11 16:50:41.860][trace][2985][0] @see: https://github.com/simple-rtmp-server/srs/wiki/v1_CN_SrsLog
+[2015-09-11 16:50:41.860][trace][2985][0] srs(simple-rtmp-server) 1.0.32
+[2015-09-11 16:50:41.860][trace][2985][0] license: The MIT License (MIT)
+[2015-09-11 16:50:41.860][trace][2985][0] primary: winlin
+[2015-09-11 16:50:41.860][trace][2985][0] authors: wenjie.zhao
+[2015-09-11 16:50:41.860][trace][2985][0] contributors: winlin<winlin@vip.126.com> wenjie.zhao<740936897@qq.com> xiangcheng.liu<liuxc0116@foxmail.com> naijia.liu<youngcow@youngcow.net> alcoholyi<alcoholyi@qq.com> byteman<wangchen2011@gmail.com> chad.wang<chad.wang.cn@gmail.com> suhetao<suhetao@gmail.com> Johnny<fengjihu@163.com> karthikeyan<keyanmca@gmail.com> StevenLiu<lq@chinaffmpeg.org> zhengfl<zhengfl_1989@126.com> tufang14<breadbean1449@gmail.com> 
+[2015-09-11 16:50:41.860][trace][2985][0] uname: Linux c7.c7 3.10.0-229.11.1.el7.x86_64 #1 SMP Thu Aug 6 01:06:18 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+[2015-09-11 16:50:41.860][trace][2985][0] build: 2015-09-11 16:49:49, little-endian
+[2015-09-11 16:50:41.860][trace][2985][0] configure:  --with-arm-ubuntu12 --with-ssl --with-hls --log-verbose --prefix=/home/zhangbin/xlive/srshome/nstvbox/srsarmhf/out --without-librtmp --log-info
+[2015-09-11 16:50:41.860][trace][2985][0] features: --prefix=/home/zhangbin/xlive/srshome/nstvbox/srsarmhf/out --with-hls --with-dvr --without-nginx --with-ssl --without-ffmpeg --with-transcode --with-ingest --with-stat --with-http-callback --with-http-server --with-http-api --without-librtmp --without-research --without-utest --without-gperf --without-gmc --without-gmp --without-gcp --without-gprof --with-arm-ubuntu12 --without-mips-ubuntu12 --static --log-verbose --log-info --log-trace
+[2015-09-11 16:50:41.860][trace][2985][0] arm tool chain: cc=arm-linux-gnueabihf-gcc gcc=arm-linux-gnueabihf-gcc g++=arm-linux-gnueabihf-g++ ar=arm-linux-gnueabihf-ar ld=arm-linux-gnueabihf-ld randlib=arm-linux-gnueabihf-ranlib
+[2015-09-11 16:50:41.861][trace][2985][0] conf: conf/srs.conf, limit: 1000
+[2015-09-11 16:50:41.861][trace][2985][0] rtmp handshake: on
+[2015-09-11 16:50:41.861][trace][2985][0] hls: on
+[2015-09-11 16:50:41.861][trace][2985][0] http callback: on
+[2015-09-11 16:50:41.861][trace][2985][0] http api: on
+[2015-09-11 16:50:41.861][trace][2985][0] http server: on
+[2015-09-11 16:50:41.861][trace][2985][0] http parser: on
+[2015-09-11 16:50:41.861][trace][2985][0] dvr: on
+[2015-09-11 16:50:41.861][trace][2985][0] transcode: on
+[2015-09-11 16:50:41.861][trace][2985][0] ingest: on
+[2015-09-11 16:50:41.861][trace][2985][0] system stat: on
+[2015-09-11 16:50:41.861][warn][2985][0][2] compile nginx: off
+[2015-09-11 16:50:41.861][warn][2985][0][2] compile ffmpeg: off
+[2015-09-11 16:50:41.861][warn][2985][0][2] http server is dev feature, @see https://github.com/simple-rtmp-server/srs/wiki/v1_CN_HTTPServer#feature
+[2015-09-11 16:50:42.061][trace][2985][0] start deamon mode...
+[2015-09-11 16:50:42.062][trace][2987][0] #########test#########
+[2015-09-11 16:50:42.108][trace][2987][0] son(deamon) process running.
+[2015-09-11 16:50:42.535][trace][2985][0] grandpa process exit.
+[2015-09-11 16:50:42.774][trace][2987][0] write pid=2987 to ./objs/srs.pid success!
+[2015-09-11 16:50:42.776][trace][2987][100] server main cid=100
+[2015-09-11 16:50:42.777][trace][2987][101] listen cycle start, port=1935, type=0, fd=6
+[2015-09-11 16:58:52.042][trace][3005][0] srs checking config...
+[2015-09-11 16:58:52.341][error][3005][0][0] unsupported directive ss_log_tank, ret=1023
